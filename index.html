@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freebies</title>
+
+    <link rel="stylesheet" href="css/main.min.css">
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
+</head>
+<body>
+    
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-box">
+                    <div class="hero-info-box">
+                        <div class="title-box">
+                            <h1 class="hero-title">
+                                Let’s get you set up
+                            </h1>
+    
+                            <p class="hero-text">
+                                Itshould only take a couple of minutes <br>
+                                to pair with your watch
+                            </p>
+                        </div>
+                    </div>
+
+                    <form class="hero-form" action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off"> 
+
+                        <div class="input-box">
+                            <label class="hero-label" for="name">Name</label>
+                            <input class="hero-input name" type="text" name="user-name" value="Kendall Jenner" id="name">
+                        </div>
+                        
+
+                        <div class="input-box radio">
+                            <label class="hero-label" for="gender">Gender</label>
+
+                            <div class="radio-box">
+                                <input class="gender" type="radio" name="user-gender" id="gender" required>
+                                <p class="radio-text male">Male</p>
+                            </div>
+                            
+                            <div class="radio-box">
+                                <input class="gender" type="radio" name="user-gender" id="gender" required>
+                                <p class="radio-text">Female</p>
+                            </div>
+                        </div>
+                        
+                        <div class="input-box">
+                            <label class="hero-label" for="date">Date of Birth</label>
+                            <input class="hero-input date-input" type="date" name="user-birthday" id="date" placeholder="01/02/1983" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label class="hero-label" for="email">Email</label>
+                            <input class="hero-input" type="email" name="user-email" id="email" placeholder="kendall@emailcom" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label class="hero-label" for="tel">Mobile</label>
+                            <input class="hero-input tel" type="tel" name="user-phonenumber" id="tel" placeholder="+91 98765 43210" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label class="hero-label id-label" for="id">Customer ID</label>
+                            <input class="hero-input id" type="text" name="user-id" id="id" placeholder="576802-ERD0348 45" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label class="hero-label" for="membership">Membership</label>
+
+                            <div class="radio-box">
+                                <input class="gender membership" type="radio" name="user-membership" id="membership" required>
+                                <p class="radio-text membership-text">Classic</p>
+                            </div>
+    
+                            <div class="radio-box">
+                                <input class="gender membership" type="radio" name="user-membership" id="membership" required>
+                                <p class="radio-text membership-text">Silver</p>
+                            </div>
+
+                            <div class="radio-box">
+                                <input class="gender membership" type="radio" name="user-membership" id="membership" required>
+                                <p class="radio-text membership-text gold">Gold</p>
+                            </div>
+                        </div>
+
+                        <button class="btn cancel-button" type="button">CANCEL</button>
+
+                        <button class="btn save-button" type="submit">SAVE</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
