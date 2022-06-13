@@ -104,7 +104,7 @@ body {
     width: 190px;
     margin-bottom: 11px;
     padding: 9px 0px 9px 10px;
-    font-size: 7.4089px;
+    font-size: 16px;
     line-height: 9px;
     color: #373D40;
     caret-color: #4A90E2;
@@ -120,7 +120,7 @@ body {
 
 .hero-input::placeholder{
     font-family: "Actor";   
-    font-size: 7.4089px;
+    font-size: 16px;
     line-height: 9px;
     display: flex;
     align-items: flex-end;
@@ -140,7 +140,7 @@ body {
     margin-left: 8px;
     margin-bottom: 15px;
     font-family: "Actor";
-    font-size: 7.4089px;
+    font-size: 16px;
     line-height: 9px;
     color: #B1BFCD;
 }
@@ -157,7 +157,7 @@ body {
 .hero-label{
     margin-bottom: 10px;
     font-family: "Actor";
-    font-size: 7.4089px;
+    font-size: 16px;
     line-height: 9px;
     color: var(--main-text-color);
 }
@@ -177,7 +177,7 @@ body {
 .membership-text{
     margin-right: 0;
     margin-left: 8px;
-    font-size: 7.4089px;
+    font-size: 16px;
     line-height: 9px;
     color: var(--main-text-color);
 }
@@ -193,7 +193,7 @@ body {
 .btn{
     margin-top: 25px;
     padding: 9px 25px;
-    font-size: 7.4089px;
+    font-size: 16px;
     line-height: 9px;
     color: var(--main-text-color);
     border-radius: 2.64604px;
